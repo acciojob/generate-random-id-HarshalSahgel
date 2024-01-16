@@ -1,7 +1,7 @@
 function makeid(l) {
-  // write your code here
+ return l;
 }
 
 // Do not change the code below.
-const l = prompt("Enter a number.");
+ const l = prompt("Enter a number.");
 alert(makeid(l));

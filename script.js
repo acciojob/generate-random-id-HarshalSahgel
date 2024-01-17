@@ -5,7 +5,7 @@ function makeid(l) {
                       'u', 'v', 'w', 'x', 'y', 'z'];
 	let str = "";
 	while(n--){
-		let value = parseInt(Math.random(array) * 36);
+		let value = parseInt(Math.random() * 35);
 		str += array[value];
 	}
 }

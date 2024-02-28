@@ -4,12 +4,14 @@ function makeid(l) {
                       'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't',
                       'u', 'v', 'w', 'x', 'y', 'z'];
 	let str = "";
-	while(n--){
+	while(l--){
 		let value = parseInt(Math.random() * 35);
 		str += array[value];
+		
 	}
+	return str;
 }
 
 // Do not change the code below.
- const l = prompt("Enter a number.");
-alert(makeid(l));
+ const l = parseInt(prompt("Enter a number."));
+ alert(makeid(l));
